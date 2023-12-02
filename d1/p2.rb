@@ -13,16 +13,14 @@ data = file.read
 data_array = data.split
 
 total = 0
-digit_strings = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",
-                  "one", "two", "three", "four", "five", "six", "seven",
-                  "eight", "nine", "zero"]
+
 digit_map = { "one" => "on1e",
               "two" => "tw2o",
               "three" => "thre3e",
               "four" => "4",
-              "five" => "5",
+              "five" => "fiv5e",
               "six" => "6",
-              "seven" => "7",
+              "seven" => "seve7n",
               "eight" => "eigh8t",
               "nine" => "nin9e",
               "zero" => "zer0o"}
